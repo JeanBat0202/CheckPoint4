@@ -1,0 +1,83 @@
+.ProjetTitle {
+  padding-top: 18vh;
+  color: white;
+  text-align: center;
+  font-size: 45px;
+}
+
+.DetailImageContainer {
+  width: 450px;
+  height: 35vh;
+  align-items: center;
+  border-radius: 5%;
+}
+
+.ImgDetails {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 5%;
+}
+
+.ProjetDetailContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Slider {
+  width: 250px;
+  padding-top: 5vh;
+  border-radius: 5%;
+}
+
+.Concept {
+  color: white;
+  height: 300px;
+  font-size: 25px;
+  margin-top: 5vh;
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+@media screen and (min-width: 700px) {
+  .Slider {
+    width: 600px;
+    height: 450px;
+    padding-top: 5vh;
+  }
+
+  .Concept {
+    padding-top: 10vh;
+  }
+
+  .ProjetTitle {
+    text-align: start;
+    margin-left: 10vh;
+    font-size: 55px;
+  }
+
+  .DetailImageContainer {
+    width: 450px;
+    height: 58vh;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .ProjetDetailContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .Concept {
+    max-width: 400px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .ProjetTitle {
+    padding-left: 9vh;
+  }
+}
