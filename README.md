@@ -1,7 +1,6 @@
 ## Concept
 
-This template is meant to serve as a foundation for every P2/P3 following the React-Express-MySQL stack, as learned in Wild Code School.
-It's pre-configured with a set of tools which'll help students produce industry-quality and easier-to-maintain code, while staying as simple as possible to use.
+This Project is my PortFolio. A project for the CheckPoint4 during my course at the Wild Code School. 
 
 ## Setup & Use
 
@@ -21,6 +20,7 @@ git config --global core.autocrlf false
 - If you are using `yarn` or `pnpm`, adapt the `config/cli` in `package.json`
 - Run command `npm install`
 - _NB: To launch the backend server, you'll need an environment file with database credentials. You'll find a template one in `backend/.env.sample`_
+- Run npm migrate for run the database migration script.
 
 ### Available Commands
 
